@@ -1,4 +1,4 @@
-// EEP 523 A5/A6
+// EEP 523 Final Project
 // To develop this code below for the Arduino side, the student developer 
 // referred to the two circuit playground example, the hello_button and HRM from class
 
@@ -25,7 +25,7 @@
 long duration; // variable for the duration of sound wave travel
 int distance; // variable for the distance measurement
 
-// The Circuit Playground device will send over the thermo data 
+// The Circuit Playground device will send over the distance data 
 // through the uart interface 
 Adafruit_BluefruitLE_UART ble(Serial1, BLUEFRUIT_UART_MODE_PIN);
 
